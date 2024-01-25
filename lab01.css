@@ -1,0 +1,37 @@
+.contenido {
+  height: 450px;
+  width: 330px;
+  perspective: 500px;
+  position: relative;
+}
+.carta {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1.5s ease-in-out;
+}
+.carta:hover {
+  transform: rotate(90deg) rotateX(180deg);
+  transform-origin: bottom right; 
+}
+.carta .side {
+  color: black;
+  background: linear-gradient(to bottom, #87CEEB, #FFFFFF);
+  box-shadow: inset 0 0 0 12px #001f3f;
+  backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.carta .back {
+  transform: rotate(180deg) rotateY(180deg);
+}
+.carta .back .frase {
+  position: absolute;
+  top: 80px; 
+  right: 50%; 
+  transform: rotate(-90deg);
+  font-size: 15px; 
+  color: black; 
+}
