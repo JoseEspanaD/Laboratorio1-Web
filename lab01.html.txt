@@ -1,0 +1,20 @@
+<center>
+  <div class="contenido">
+    <div class="carta">
+      <div class="side">
+        <h1>NOMBRE</h1>
+        <p>José Carlos España Lutín</p>
+        <h1>CORREO</h1>
+        <p>22000123@galileo.edu</p>
+        <h1>TELEFONO</h1>
+        <p>5494-5120</p>
+        <h1>CARRERA</h1>
+        <p>Ingeniería en Sistemas</p>
+      </div>
+      <div class="side back">
+        <p class="frase"><b>"El 80% del éxito se basa simplemente en insistir"</b></p>
+        <img src="https://i.postimg.cc/JzhVVRjw/Jose-Espana.jpg" style="width: 330px; height: 450px;">
+      </div>
+    </div>
+  </div>
+</center>
